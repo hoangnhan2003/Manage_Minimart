@@ -43,6 +43,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnRemove = new Guna.UI2.WinForms.Guna2Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.lblCustomerID = new System.Windows.Forms.Label();
             this.showPoint = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.checkUsePoint = new Guna.UI2.WinForms.Guna2ToggleSwitch();
@@ -52,7 +53,6 @@
             this.btnSearchCustomer = new Guna.UI2.WinForms.Guna2Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.dgvProduct = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.lblCustomerID = new System.Windows.Forms.Label();
             this.productIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.priceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -157,9 +157,9 @@
             this.label5.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.label5.Location = new System.Drawing.Point(37, 245);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(106, 23);
+            this.label5.Size = new System.Drawing.Size(135, 23);
             this.label5.TabIndex = 3;
-            this.label5.Text = "Customer ID";
+            this.label5.Text = "Customer Name";
             // 
             // btnPrint
             // 
@@ -236,6 +236,16 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(901, 361);
             this.panel3.TabIndex = 13;
+            // 
+            // lblCustomerID
+            // 
+            this.lblCustomerID.AutoSize = true;
+            this.lblCustomerID.Location = new System.Drawing.Point(409, 22);
+            this.lblCustomerID.Name = "lblCustomerID";
+            this.lblCustomerID.Size = new System.Drawing.Size(44, 16);
+            this.lblCustomerID.TabIndex = 18;
+            this.lblCustomerID.Text = "label4";
+            this.lblCustomerID.Visible = false;
             // 
             // showPoint
             // 
@@ -442,16 +452,6 @@
             this.dgvProduct.ThemeStyle.RowsStyle.Height = 50;
             this.dgvProduct.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgvProduct.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            // 
-            // lblCustomerID
-            // 
-            this.lblCustomerID.AutoSize = true;
-            this.lblCustomerID.Location = new System.Drawing.Point(409, 22);
-            this.lblCustomerID.Name = "lblCustomerID";
-            this.lblCustomerID.Size = new System.Drawing.Size(44, 16);
-            this.lblCustomerID.TabIndex = 18;
-            this.lblCustomerID.Text = "label4";
-            this.lblCustomerID.Visible = false;
             // 
             // productIdDataGridViewTextBoxColumn
             // 
